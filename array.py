@@ -1,6 +1,6 @@
 arr = list()
 n = int(input("Size: "))
-n = int(input("Введите количество элементов: "))
+n = int(input("Enter array size (max 15): "))
 if n < 0:
     print("Error: negative size")
     return
