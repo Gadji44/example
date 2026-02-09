@@ -1,5 +1,8 @@
 arr = list()
 n = int(input("Enter number of elements: "))
+if n < 0:
+    print("Error: negative size")
+    return
 print("Enter elements:")
 i = 0
 while (i < n):
