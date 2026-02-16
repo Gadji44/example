@@ -1,9 +1,7 @@
 arr = list()
 n = int(input("Enter array size (max 15): "))
-n = int(input("Enter array size (max 15): "))
 if n < 0:
     print("Error: negative size")
-    return
 print("Enter elements:")
 i = 0
 while (i < n):
